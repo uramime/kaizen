@@ -10,7 +10,7 @@ import Foundation
 class TimerManager {
     static let shared = TimerManager()
 
-    // Time interval value updated every second
+    // Time interval value updated every second.
     private(set) var currentTime: Date = Date()
     private var timer: Timer?
 
